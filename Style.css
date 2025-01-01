@@ -1,0 +1,348 @@
+*{
+    font-family: "Roboto", sans-serif;
+    margin: 0%;
+    padding: 0%;
+    overflow-x: hidden;
+}
+/* ---------------------Head section---------------------- */
+.headSection{
+    background-color:rgb(166, 174, 191);
+    height: 60px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.hamburger-icon{
+    width: 30px;
+    background:white;
+    padding: 5px;
+    border-radius: 8px 0px 0px 8px;
+    cursor: pointer;
+}
+.headTitle{
+    cursor: pointer;
+    font-size: 17px;
+    background:white;
+    padding: 7px;
+    border-radius: 0px 8px 8px 0px;
+}
+
+/* ---------------------Hero section---------------------- */
+
+
+.hero{
+    display: flex;
+    justify-content: space-evenly;
+    height: 450px;
+    background: #00000004;
+    margin-bottom: 90px;
+}
+.HeroText h1{
+    font-size: 60px;
+    margin: 30px 0px;
+}
+.HeroText p{
+    font-size: 15px;
+    margin: 10px 0px;
+}
+
+.HeroText{
+    padding: 10px;
+    width: 40%;
+    align-items: center;
+}
+.img-section{
+    width: 40%;
+    height: auto;
+}
+.Business-img{
+    width: 80%;
+    margin-top: 12px;
+    border-radius: 20px;
+}
+
+.LearnMorebtn{
+    margin-top: 20px;
+    border: none;
+    padding: 10px 20px;
+    background: #000;
+    font-size: 14px;
+    color: white;
+    border-radius: 7px;
+-webkit-box-shadow: 5px 5px 13px #000000;
+-moz-box-shadow: 5px 5px 13px #000000;
+box-shadow: 5px 5px 13px #000000;
+
+}
+.LearnMorebtn:hover{
+    font-weight: 700;
+    font-size:16px;
+    transition: all 0.5s;
+    background: white;
+    color: black;
+}
+
+/* ---------------------------------middle section-----------------------  */
+.titleMiddle p{
+    font-size: 18px;
+    height:150px;
+}
+.titleMiddle h1{
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    background: white;
+    color: black;
+    padding: 20px 0px;
+    text-align: center;
+    font-size: 29px;
+    margin-bottom: 25px;
+}
+.titleMiddle{
+    margin-top: 100px;
+    height:450px;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.Quality-Product{
+    width: 30%;
+    height: 300px;
+    background: #000;
+    color: white;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    border-radius: 4px;
+    padding: 10px;
+
+}
+
+
+.Competitive-Price{
+    height: 300px;
+    width: 30%;
+    background: #000;
+    color: white;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    border-radius: 4px;
+    padding: 10px;
+
+}
+
+.Grouth-Starategy{
+    height: 300px;
+    width: 30%;
+    background-color: #A6AEBF;
+    color: black;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    border-radius: 4px;
+    padding: 10px;
+}
+.btn{
+    border: none;
+    padding: 12px 18px;
+    font-weight: 700;
+    text-align: center;
+    width: 100%;
+    position: relative;
+    bottom: 30px;
+    font-family: "Roboto", sans-serif;
+    font-size: 20px;
+    cursor: pointer;
+    border: 2px solid white;
+}
+.btn:hover{
+    border: 2px solid white;
+    background-color: black;
+    color: white;
+    transition: all 1s;
+}
+
+<!-- /* ---------------------------------ancor section-----------------------  */ -->
+.about_company{
+    height: 450px;
+    text-align: center;
+    width: 40%;
+    margin: 0px auto;
+    margin-bottom: 40px;
+    overflow-y: hidden;
+}
+.about_company h1{
+    padding:15px ;
+    font-size: 28px;
+}
+.ancor_img{
+    padding: 10px 0px;
+    width: 15%;
+}
+
+.Details{
+    border: 2px solid black;
+    background-color: white;
+    font-size: 15px;
+    color: black;
+    margin-top: 19px;
+    padding: 11px 15px;
+    font-weight: 700;
+}
+.Details:hover{
+    color: white;
+    background-color: #000;
+    transition: all 0.7s;
+}
+
+/* --------------------------------------middle hero section --------------  */
+.hero-thard{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    background-color: #000;
+    height: 650px;
+    overflow-y: hidden;
+    margin-bottom: 90px;
+}
+.Middle_img_hero{
+    background-color: aliceblue;
+}
+.Middle_img_hero img{
+    width: 700px;
+    height: 690px;
+}
+.text-section h1{
+    font-size: 36px;
+    padding: 8px 0px;
+}
+.text-section p{
+    padding: 20px 0px;
+}
+ .text-section{
+    padding-top: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 70%;
+    height: 700px;
+    color: white;
+    overflow-x: hidden;
+    margin-left: 90px;
+}
+
+
+.chat{
+    border: 2px solid black;
+    background-color: white;
+    font-size: 15px;
+    color: black;
+    margin-top: 19px;
+    padding: 14px 19px;
+    font-weight: 700;
+    border-radius: 14px;
+
+}
+
+.chat:hover{
+    background-color: #000;
+    color: white;
+    border: 2px solid white;
+    transition: all 0.7s;
+}
+
+/* -------------------------------------form section--------------------------- / */
+form h1{
+    font-size: 30px;
+    color:black;
+    padding: 20px 0px;
+}
+
+.form_section img{
+    width:60% ;
+    margin-top: 50px;
+}
+.img_section{
+    height: 500px;
+    overflow-y: hidden;
+}
+.form_section{
+    margin-bottom: 140px;
+    height: 500px;
+    text-align: center;
+    display: grid;
+    grid-template-columns:  repeat(2,1fr);
+   margin-top: 200px;
+}
+
+form{
+    padding-top: 50px;
+    border: 2px solid rgba(0, 0, 0, 0.299);
+    width: 60%;
+    margin: 10px auto;
+}
+
+.form_section input{
+    display: block;
+    padding: 13px;
+    margin: 20px auto;
+}
+
+.Submit{
+    border: 2px solid black;
+    background: white;
+    color: black;
+    padding: 10px 16px;
+    font-size: 15px;
+    font-weight: 700;
+    border-radius: 5px;
+}
+
+.Submit:hover{
+    background-color: #000;
+    color: white;
+    transition: all 0.7s;
+}
+
+
+/* -----------------------------Footer section-------------------  */
+h3{
+    font-size: 17px;
+    font-weight: 300;
+    padding-top: 10px;
+}
+.main_bottom_section{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    padding-left: 10%;
+    padding-top: 40px;
+    padding-bottom: 50px;
+    background-color: gainsboro;
+}
+.input-container {
+    margin: 15px 0px;
+    display: flex;
+    align-items: center;
+    border-bottom: 2px solid #000;
+    padding: 5px 0;
+    width: 300px;
+  }
+
+  .input-container input {
+    border: none;
+    outline: none;
+    flex: 1;
+    font-size: 16px;
+    color: #000;
+    padding: 6px;
+    margin-top: 10px;
+  }
+
+  .input-container input::placeholder {
+    color: black;
+    
+  }
+
+  .input-container button {
+    background: none;
+    border: none;
+    cursor: pointer;
+  }
+
+  .input-container button svg {
+    width: 16px;
+    height: 16px;
+    fill: #000;
+  }
